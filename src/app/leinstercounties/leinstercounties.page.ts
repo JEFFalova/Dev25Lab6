@@ -13,6 +13,7 @@ import { IonContent, IonHeader, IonTitle, IonToolbar, IonButton, IonButtons, Ion
 export class LeinstercountiesPage implements OnInit {
 
   constructor() { }
+  // Declaring an array of counties in Leinster
   counties: string[] = ["Carlow", "Dublin", "Kildare",
     "Kilkenny", "Laois", "Longford", "Louth", "Meath",
     "Offaly", "Westmeath", "Wexford", "Wicklow"];

@@ -1,8 +1,10 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+     <!-- The back button allows the user to navigate back to the previous page -->
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
+    <!-- Title displayed on the toolbar (page name or title) -->
     <ion-title>leinstercounties</ion-title>
   </ion-toolbar>
 </ion-header>
@@ -14,7 +16,9 @@
     </ion-toolbar>
   </ion-header>
       <ul>
+         <!-- Using *ngFor to iterate over the 'counties' array and display each county in an li -->
       <li *ngFor="let x of counties">
+        <!-- Interpolation to display the county name in each list item -->
         {{x}}
       </li>
     </ul>
